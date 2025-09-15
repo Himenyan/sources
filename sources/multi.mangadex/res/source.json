@@ -1,75 +1,197 @@
 {
 	"info": {
 		"id": "multi.mangadex",
+		"lang": "multi",
 		"name": "MangaDex",
-		"version": 9,
 		"url": "https://mangadex.org",
-		"contentRating": 1,
-		"languages": [
-			"en",
-			"sq",
-			"ar",
-			"az",
-			"bn",
-			"bg",
-			"my",
-			"ca",
-			"zh-Hans",
-			"zh-Hant",
-			"hr",
-			"cs",
-			"da",
-			"nl",
-			"eo",
-			"et",
-			"fil",
-			"fi",
-			"fr",
-			"ka",
-			"de",
-			"el",
-			"he",
-			"hi",
-			"hu",
-			"id",
-			"it",
-			"ja",
-			"kk",
-			"ko",
-			"la",
-			"lt",
-			"ms",
-			"mn",
-			"ne",
-			"no",
-			"fa",
-			"pl",
-			"pt",
-			"pt-BR",
-			"ro",
-			"ru",
-			"sr",
-			"sk",
-			"sl",
-			"es",
-			"es-419",
-			"sv",
-			"ta",
-			"te",
-			"th",
-			"tr",
-			"uk",
-			"vi"
-		]
+		"version": 8,
+		"minAppVersion": "0.5"
 	},
+	"languages": [
+		{
+			"code": "ar",
+			"value": "ar"
+		},
+		{
+			"code": "bn",
+			"value": "bn"
+		},
+		{
+			"code": "bg",
+			"value": "bg"
+		},
+		{
+			"code": "my",
+			"value": "my"
+		},
+		{
+			"code": "ca",
+			"value": "ca"
+		},
+		{
+			"code": "zh-Hans",
+			"value": "zh"
+		},
+		{
+			"code": "zh-Hant",
+			"value": "zh-hk"
+		},
+		{
+			"code": "cs",
+			"value": "cs"
+		},
+		{
+			"code": "da",
+			"value": "da"
+		},
+		{
+			"code": "nl",
+			"value": "nl"
+		},
+		{
+			"code": "en",
+			"value": "en",
+			"default": true
+		},
+		{
+			"code": "fil",
+			"value": "tl"
+		},
+		{
+			"code": "fi",
+			"value": "fi"
+		},
+		{
+			"code": "fr",
+			"value": "fr"
+		},
+		{
+			"code": "de",
+			"value": "de"
+		},
+		{
+			"code": "el",
+			"value": "el"
+		},
+		{
+			"code": "he",
+			"value": "he"
+		},
+		{
+			"code": "hi",
+			"value": "hi"
+		},
+		{
+			"code": "hu",
+			"value": "hu"
+		},
+		{
+			"code": "id",
+			"value": "id"
+		},
+		{
+			"code": "it",
+			"value": "it"
+		},
+		{
+			"code": "ja",
+			"value": "ja"
+		},
+		{
+			"code": "ko",
+			"value": "ko"
+		},
+		{
+			"code": "la",
+			"value": "la"
+		},
+		{
+			"code": "lt",
+			"value": "lt"
+		},
+		{
+			"code": "ms",
+			"value": "ms"
+		},
+		{
+			"code": "mn",
+			"value": "mn"
+		},
+		{
+			"code": "ne",
+			"value": "ne"
+		},
+		{
+			"code": "no",
+			"value": "no"
+		},
+		{
+			"code": "fa",
+			"value": "fa"
+		},
+		{
+			"code": "pl",
+			"value": "pl"
+		},
+		{
+			"code": "pt-BR",
+			"value": "pt-br"
+		},
+		{
+			"code": "pt",
+			"value": "pt"
+		},
+		{
+			"code": "ro",
+			"value": "ro"
+		},
+		{
+			"code": "ru",
+			"value": "ru"
+		},
+		{
+			"code": "sh",
+			"value": "sh"
+		},
+		{
+			"code": "es-419",
+			"value": "es-la"
+		},
+		{
+			"code": "es",
+			"value": "es"
+		},
+		{
+			"code": "sv",
+			"value": "sv"
+		},
+		{
+			"code": "th",
+			"value": "th"
+		},
+		{
+			"code": "tr",
+			"value": "tr"
+		},
+		{
+			"code": "uk",
+			"value": "uk"
+		},
+		{
+			"code": "vi",
+			"value": "vi"
+		},
+		{
+			"code": "other",
+			"value": "NULL"
+		}
+	],
 	"listings": [
 		{
-			"id": "popular",
 			"name": "Popular"
 		},
 		{
-			"id": "recent",
-			"name": "Recently Added"
+			"name": "Latest"
 		}
 	]
 }
